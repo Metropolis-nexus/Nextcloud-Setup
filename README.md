@@ -30,6 +30,7 @@
 - Contacts
 - Calendar
 - Notes
+- End to end encryption (Note that the UX for this is really bad still)
 
 ## Administration Settings
 
@@ -48,13 +49,13 @@
 - Global default app -> Files
 
 ### OpenID Connect
-- Connect to Authentik
 - Setup property mappings in Authentik
-- Use user_id and group provisioning in Nextcloud
+- Connect to Authentik through Nextcloud
+  - Do not use the email scope or map emails - User's can see each other's email through the contacts app otherwise
+  - Use user_id and group provisioning
 
 ## Enforce SSO Login
 
 ```bash
 docker exec nextcloud ./occ config:app:set --value=0 user_oidc allow_multiple_user_backends
 ```
-
