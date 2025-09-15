@@ -23,6 +23,8 @@
 - Disable Usage survey
 - Disable User status
 - Disable Weather status
+- Two-Factor Authentication via Nextcloud notification (Does nothing since Nextcloud cannot do 2FA with OIDC)
+- Two-Factor TOTP Provider (Does nothing since Nextcloud cannot do 2FA with OIDC)
 
 ### Apps to install
 - OpenID Connect user backend
