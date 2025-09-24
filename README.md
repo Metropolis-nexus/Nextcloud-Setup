@@ -33,6 +33,7 @@
 - Calendar
 - Notes
 - End to end encryption (Note that the UX for this is really bad still)
+- OnlyOffice
 
 ## Administration Settings
 
@@ -49,6 +50,11 @@
 - Web link -> https://metropolis.nexus
 - Slogan -> More secure than Murena Workspace!
 - Global default app -> Files
+
+### ONLYOFFICE
+- The default application for opening the format -> Remove pdf
+- Uncheck "Enable plugins"
+- Uncheck "Run document macros"
 
 ### OpenID Connect
 - Setup property mappings in Authentik
