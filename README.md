@@ -63,7 +63,7 @@
   - Add the `offline_access` scope - Authentik will not issue refresh tokens otherwise
   - Use user_id and group provisioning
 
-## Update config.php
+## Update `config.php`
 
 Add the following:
 
