@@ -52,7 +52,8 @@
 - Global default app -> Files
 
 ### ONLYOFFICE
-- The default application for opening the format -> Remove pdf
+- The default application for opening the format -> Remove pdf (Too laggy compared to the built in PDF viewer)
+- Uncheck "Display Feedback & Support menu button"
 - Uncheck "Enable plugins"
 - Uncheck "Run document macros"
 
