@@ -16,21 +16,28 @@ Add NGINX's internal IP address to `/etc/hosts`:
 - Disable Comments
 - Disable Contacts interation
 - Disable Dashboard
+- Disable Default encryption module
+- Disable External storage support
 - Disable Federation
 - Disable File reminders
+- Disable Files download limit
 - Disable First run wizard
+- Disable LDAP user and group backend
 - Disable Monitoring
+- Disable Nextcloud annoucnements
 - Disable Nextcloud webhook support
 - Disable Password policy
 - Disable Privacy
 - Disable Recommendations
 - Disable Related resources
 - Disable Support
+- Disable Suspicious login
 - Disable Usage survey
 - Disable User status
 - Disable Weather status
-- Two-Factor Authentication via Nextcloud notification (Does nothing since Nextcloud cannot do 2FA with OIDC)
-- Two-Factor TOTP Provider (Does nothing since Nextcloud cannot do 2FA with OIDC)
+- Disable Two-Factor Authentication via Nextcloud notification (Does nothing since Nextcloud cannot do 2FA with OIDC)
+- Disable Two-Factor TOTP Provider (Does nothing since Nextcloud cannot do 2FA with OIDC)
+- Enable Auditing/Logging
 
 ### Apps to install
 - OpenID Connect user backend
