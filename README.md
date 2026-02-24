@@ -1,5 +1,11 @@
 # Nextcloud-Setup
 
+## Hosts file
+Add NGINX's internal IP address to `/etc/hosts`:
+```
+192.168.2.102 onlyoffice.metropolis.nexus
+```
+
 ## Apps
 
 ### Your apps
@@ -53,9 +59,13 @@
 
 ### ONLYOFFICE
 - The default application for opening the format -> Remove pdf (Too laggy compared to the built in PDF viewer)
+- Check "Keep intermediate versions when editing (forcesave)"
+- Check "Enable live-viewing mode when accessing file by public link"
+- Uncheck "Display Chat menu option"
 - Uncheck "Display Feedback & Support menu button"
 - Uncheck "Enable plugins"
 - Uncheck "Run document macros"
+- Enable document protection for -> All users
 
 ### OpenID Connect
 - Setup property mappings in Authentik
