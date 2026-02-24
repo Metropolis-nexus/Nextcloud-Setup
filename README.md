@@ -34,10 +34,7 @@ Add NGINX's internal IP address to `/etc/hosts`:
 
 ### Apps to install
 - OpenID Connect user backend
-- Mail
 - Contacts
-- Calendar
-- Notes
 - End to end encryption (Note that the UX for this is really bad still)
 - OnlyOffice
 
