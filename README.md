@@ -11,6 +11,7 @@ Add NGINX's internal IP address to `/etc/hosts`:
 ### Your apps
 - Disable Activity
 - Disable AppAPI
+- Disable Auditing/Logging
 - Disable Brute-force settings
 - Disable Collaborative tags
 - Disable Comments
@@ -38,7 +39,6 @@ Add NGINX's internal IP address to `/etc/hosts`:
 - Disable Weather status
 - Disable Two-Factor Authentication via Nextcloud notification (Does nothing since Nextcloud cannot do 2FA with OIDC)
 - Disable Two-Factor TOTP Provider (Does nothing since Nextcloud cannot do 2FA with OIDC)
-- Enable Auditing/Logging
 
 ### Apps to install
 - OpenID Connect user backend
