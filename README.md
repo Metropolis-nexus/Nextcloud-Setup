@@ -48,6 +48,9 @@ Add NGINX's internal IP address to `/etc/hosts`:
 - Profile -> Disable profile by default for new accounts
 - Files compatibility -> Enforce Windows compatibility
 
+### Sharing
+- Turn off all federation features
+
 ### Theming
 - Name -> Metropolis Nextcloud
 - Web link -> https://metropolis.nexus
