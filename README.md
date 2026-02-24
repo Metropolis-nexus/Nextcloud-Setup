@@ -23,6 +23,7 @@ Add NGINX's internal IP address to `/etc/hosts`:
 - Disable Files download limit
 - Disable First run wizard
 - Disable LDAP user and group backend
+- Disable Log Reader (since there are so many ridiculous errors that are not really errors)
 - Disable Monitoring
 - Disable Nextcloud annoucnements
 - Disable Nextcloud webhook support
@@ -42,7 +43,6 @@ Add NGINX's internal IP address to `/etc/hosts`:
 ### Apps to install
 - OpenID Connect user backend
 - Contacts
-- End to end encryption (Note that the UX for this is really bad still)
 - OnlyOffice
 
 ## Administration Settings
