@@ -1,11 +1,5 @@
 # Nextcloud-Setup
 
-## Hosts file
-Add NGINX's internal IP address to `/etc/hosts`:
-```
-192.168.2.102 onlyoffice.metropolis.nexus
-```
-
 ## Apps
 
 ### Your apps
