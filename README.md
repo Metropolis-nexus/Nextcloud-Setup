@@ -12,7 +12,6 @@
 - Disable Contacts interation
 - Disable Dashboard
 - Disable Default encryption module
-- Disable External storage support
 - Disable Federation
 - Disable File reminders
 - Disable Files download limit
@@ -51,6 +50,10 @@
 
 ### Sharing
 - Turn off all federation features
+
+### External storage
+- Allow people to mount external storage
+  - SFTP with secret key login
 
 ### Theming
 - Name -> Metropolis Nextcloud
