@@ -34,9 +34,10 @@
 - Disable Two-Factor TOTP Provider (Does nothing since Nextcloud cannot do 2FA with OIDC)
 
 ### Apps to install
-- OpenID Connect user backend
 - Contacts
+- Music
 - OnlyOffice
+- OpenID Connect user backend
 
 ## Administration Settings
 
