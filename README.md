@@ -53,6 +53,10 @@
 - Turn off all federation features
 
 ### External storage
+
+**Absolutely do not use this app outside of a virtual bridge or a Wireguard tunnel. 
+There is no certificate verification/host fingerprint verification going on.**
+
 - Allow people to mount external storage
   - FTP
   - SFTP
