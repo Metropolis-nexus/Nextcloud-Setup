@@ -54,6 +54,8 @@
 
 ### External storage
 - Allow people to mount external storage
+  - FTP
+  - SFTP
   - SFTP with secret key login
 
 ### Theming
