@@ -59,6 +59,7 @@ There is no certificate verification/host fingerprint verification going on for 
 
 - Allow people to mount external storage
   - SFTP with secret key login
+  - FTP (This is extremely unreliable and can even let users accidentially crash the server, so only use it mount whatever needs to be mounted over FTP and disable it. The music app interestingly cannot load album cover over SFTP so FTP is preferable for this case.)
 
 ### Theming
 - Name -> Metropolis Nextcloud
