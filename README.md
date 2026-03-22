@@ -55,7 +55,7 @@
 ### External storage
 
 **Absolutely do not use this app outside of a virtual bridge or a Wireguard tunnel. 
-There is no certificate verification/host fingerprint verification going on.**
+There is no certificate verification/host fingerprint verification going on for both SFTP and FTPS.**
 
 - Allow people to mount external storage
   - SFTP with secret key login
