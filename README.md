@@ -58,8 +58,6 @@
 There is no certificate verification/host fingerprint verification going on.**
 
 - Allow people to mount external storage
-  - FTP
-  - SFTP
   - SFTP with secret key login
 
 ### Theming
