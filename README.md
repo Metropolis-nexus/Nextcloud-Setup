@@ -35,7 +35,6 @@
 
 ### Apps to install
 - Contacts
-- Music
 - OnlyOffice
 - OpenID Connect user backend
 
