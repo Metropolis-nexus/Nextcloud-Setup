@@ -23,6 +23,7 @@
 - Disable Nextcloud webhook support
 - Disable Password policy
 - Disable Privacy
+- Disable & remove QA testing
 - Disable Recommendations
 - Disable Related resources
 - Disable Support
